@@ -18,6 +18,8 @@ The database consists of three relational tables:
 * **SQL Skills:** `INNER JOIN`, `GROUP BY`, `HAVING`, `SUM()`
 * **Findings:** Identified 2 VIP customers accounting for 40% of total revenue.
 
+![sql Demo](morethan50.png)
+
 ```sql
 -- Sample Business Question: "Which customers generated more than $50 in revenue?"
 SELECT customers.name, SUM(products.price * orders.quantity) AS total_spent
@@ -29,3 +31,6 @@ INNER JOIN products
 GROUP BY customers.customer_id, customers.name
 HAVING SUM(products.price * orders.quantity) > 50
 ORDER BY total_spent DESC;
+```
+
+
