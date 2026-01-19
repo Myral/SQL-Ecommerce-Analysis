@@ -18,7 +18,7 @@ The database consists of three relational tables:
 * **SQL Skills:** `INNER JOIN`, `GROUP BY`, `HAVING`, `SUM()`
 * **Findings:** Identified 2 VIP customers accounting for 40% of total revenue.
 
-![sql Demo](morethan50.png)
+![morethan50](morethan50.png)
 
 ```sql
 -- Sample Business Question: "Which customers generated more than $50 in revenue?"
